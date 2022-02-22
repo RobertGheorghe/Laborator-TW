@@ -3,21 +3,23 @@
 <head>
     <title>Daredevil</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0"> <meta charset="UTF-8"> <meta name="author" content="Gheorghe Robert-Mihai">
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
-<body>
+<body bgcolor="beige">
     <div align="center"><h1><font color="red" size=6>Daredevil</font></h1></div>
         <div align="center"><img src="daredevil.png" width="400" height="200" alt="Daredevil cover"></div>
         <h2>
         Secțiunile acestei pagini:
         </h2>
         <ul>
-            <li>Informatii generale</li>
-            <li>Povestea serialului (plot)</li>
-            <li>Lista actorilor</li>
-            <li>Artwork</li>
+            <li><a href="#general">Informatii generale</a></li>
+            <li><a href="#plot">Povestea serialului (plot)</a></li>
+            <li><a href="#actori">Lista actorilor</a></li>
+            <li><a href="formular.html">Formular</a></li>
+            <li><a href="#art">Artwork</a></li>
         </ul>
     <p>
-        <font size=4>
+        <font size=4 id="general">
             Daredevil este un serial american realizat de Drew Goddard, în colaborare cu Marvel,
             lansat pe Netflix. Acțiunease desfășoară în Universul Cinematic Marvel (MCU),
             fiind primul serial care a dus la apariția miniserialului The Defenders.<br> Genul acestui serial
@@ -30,7 +32,7 @@
             </ol>
     <br>
     <p>
-        <font size=4>
+        <font size=4 id="plot">
             Acțiunea se desfășoară în orașul Hell's Kitchen, New York. Numele personajului principal
             este Matt Murdock, un bărbat rămas orb de la o vârstă fragedă din cauza unui incident
             cu substanțe chimice. Tatăl său a fost luptător de box și a fost ucis într-unul din meciuri
@@ -43,58 +45,58 @@
             sale arme.
         </font>
     </p>
-    <div align="center">
+    <div align="center" id="actori">
         <table border=1>
-            <tr>
-                <th>Actor</th>
-                <th>Personaj</th>
+            <tr class="linie">
+                <th class="header">Actor</th>
+                <th class="header">Personaj</th>
             </tr>
-            <tr>
-                <td>Charlie Cox</td>
-                <td>Matt Murdock</td>
+            <tr class="linie">
+                <td class="element">Charlie Cox</td>
+                <td class="element">Matt Murdock</td>
             </tr>
-            <tr>
-                <td>Elden Henson</td>
-                <td>Foggy Nelson</td>
+            <tr class="linie">
+                <td class="element">Elden Henson</td>
+                <td class="element">Foggy Nelson</td>
             </tr>
-            <tr>
-                <td>Deborah Ann Woll</td>
-                <td>Karen Page</td>
+            <tr class="linie">
+                <td class="element">Deborah Ann Woll</td>
+                <td class="element">Karen Page</td>
+            </tr class="linie">
+            <tr class="linie">
+                <td class="element">Vincent D'Onofrio</td>
+                <td class="element">Wilson Fisk</td>
             </tr>
-            <tr>
-                <td>Vincent D'Onofrio</td>
-                <td>Wilson Fisk</td>
+            <tr class="linie">
+                <td class="element">Royce Johnson</td>
+                <td class="element">Brett Mahoney</td>
             </tr>
-            <tr>
-                <td>Royce Johnson</td>
-                <td>Brett Mahoney</td>
+            <tr class="linie">
+                <td class="element">Jay Ali</td>
+                <td class="element">Ray Nadeem</td>
             </tr>
-            <tr>
-                <td>Jay Ali</td>
-                <td>Ray Nadeem</td>
+            <tr class="linie">
+                <td class="element">Geoffrey Cantor</td>
+                <td class="element">Mitchell Ellison</td>
             </tr>
-            <tr>
-                <td>Geoffrey Cantor</td>
-                <td>Mitchell Ellison</td>
+            <tr class="linie">
+                <td class="element">Elodie Yung</td>
+                <td class="element">Elektra Natchios</td>
+            <tr class="linie">
+                <td class="element">Wilson Bethel</td>
+                <td class="element">Bejamin Poindexter (Dex)</td>
             </tr>
-            <tr>
-                <td>Elodie Yung</td>
-                <td>Elektra Natchios</td>
-            <tr>
-                <td>Wilson Bethel</td>
-                <td>Bejamin Poindexter (Dex)</td>
+            <tr class="linie">
+                <td class="element">Peter McRobbie</td>
+                <td class="element">Father Lantom</td>
             </tr>
-            <tr>
-                <td>Peter McRobbie</td>
-                <td>Father Lantom</td>
-            </tr>
-            <tr>
-                <td>John Bernthal</td>
-                <td>Frank Castle</td>
+            <tr class="linie">
+                <td class="element">John Bernthal</td>
+                <td class="element">Frank Castle</td>
             </tr>
         </table>
         <br />
-        <img src="daredevil2.png" width=500 height=250 alt="Daredevil art"><br /><br />
+        <img src="daredevil2.png" width=500 height=250 alt="Daredevil art" id="art"><br /><br />
         <img src="daredevil1.png" width=250 height=400 alt="Daredevil art">
     </div>
 </body>

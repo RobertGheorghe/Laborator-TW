@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Formular</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="author" content="Gheorghe Robert-Mihai">
+</head>
+<body bgcolor="beige">
+    <form>
+        <label for="name">Nume</label><br>
+        <input type="text" id="nume" name="nume" required autocomplete="off" pattern="[A-Za-z -]+" title="Doar litere."><br>
+        <label for="prenume">Preume</label><br>
+        <input type="text" id="prenume" name="prenume" required autocomplete="off" pattern="[A-Za-z -]+" title="Doar litere."><br>
+        <label for="mail">Mail:</label><br>
+        <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" id="mail" name="mail" required autocomplete="off" title="Mail invalid"> <br >
+        <label for="sex">Sex:</label><br>
+        <input type="radio" id="M" name="sex" value="M" required autocomplete="off">
+        <label for="M">M</label>
+        <input type="radio" id="F" name="sex" value="F" required autocomplete="off">
+        <label for="F">F</label><br>
+        <label for="seriale">Ce seriale din seria The Defenders ai vazut?</label><br>
+        <input type="checkbox" id="daredevil" name="daredevil" value="daredevil">
+        <label for="daredevil">Daredevil</label><br>
+        <input type="checkbox" id="punisher" name="punisher" value="punisher">
+        <label for="punisher">The Punisher</label><br>
+        <input type="checkbox" id="jessica" name="jessica" value="jessica">
+        <label for="jessica">Jessica Jones</label><br>
+        <input type="checkbox" id="ironfist" name="ironfist" value="ironfist">
+        <label for="ironfist">Iron Fist</label><br>
+        <input type="checkbox" id="luke" name="luke" value="luke">
+        <label for="luke">Luke Cage</label><br>
+        <input type="checkbox" id="defenders" name="defenders" value="defenders">
+        <label for="defenders">The Defenders</label><br>
+        <input type="checkbox" id="nimic" name="nimic" value="nimic">
+        <label for="nimic">Nici unul</label><br>
+        <input type="submit">
+        <br> <br>
+    </form>
+    <a href="daredevil.html">Pagina principală</a>
+</body>
+</html>
