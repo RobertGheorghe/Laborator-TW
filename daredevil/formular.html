@@ -5,21 +5,22 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta charset="UTF-8">
     <meta name="author" content="Gheorghe Robert-Mihai">
+    <link rel="stylesheet" type="text/css" href="style2.css" />
 </head>
-<body bgcolor="beige">
+<body>
     <form>
         <label for="name">Nume</label><br>
-        <input type="text" id="nume" name="nume" required autocomplete="off" pattern="[A-Za-z -]+" title="Doar litere."><br>
+        <input type="text" id="name" name="nume" required autocomplete="off" pattern="[A-Za-z -]+" title="Doar litere."><br>
         <label for="prenume">Prenume</label><br>
         <input type="text" id="prenume" name="prenume" required autocomplete="off" pattern="[A-Za-z -]+" title="Doar litere."><br>
         <label for="mail">Mail:</label><br>
         <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" id="mail" name="mail" required autocomplete="off" title="E-mail input field"> <br >
-        <label for="sex">Sex:</label><br>
-        <input type="radio" id="M" name="sex" value="M" required autocomplete="off">
-        <label for="M">M</label>
-        <input type="radio" id="F" name="sex" value="F" required autocomplete="off">
-        <label for="F">F</label><br>
-        <label for="seriale">Ce seriale din seria The Defenders ai vazut?</label><br>
+        Sex:<br>
+        <input type="radio" id ="M" name="M" value="M" required>
+        <label for="M">M</label><br />
+        <input type="radio" id ="F" name="F" value="F" required>
+        <label for="F">F</label><br />
+        Ce seriale din seria The Defenders ai vazut?<br>
         <input type="checkbox" id="daredevil" name="daredevil" value="daredevil">
         <label for="daredevil">Daredevil</label><br>
         <input type="checkbox" id="punisher" name="punisher" value="punisher">
