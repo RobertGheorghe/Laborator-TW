@@ -48,3 +48,18 @@ p{
     margin-right: auto;
     border:solid;
 }
+
+nav
+{
+    position:sticky;
+    top:0px;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
