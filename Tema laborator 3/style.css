@@ -2,60 +2,82 @@
 {
     display: flex;
     padding-top:30px;
-    padding-left:10px;
-    padding-right:10px;
+    padding-left:20px;
+    padding-right:20px;
     padding-bottom:30px;
     border:dashed;
-    justify-content:space-evenly;
-    margin-left:660px;
+    justify-content:space-between;
+    margin-left:600px;
     margin-right:700px;
     
 }
 
-div1
+div1 
 {
-    border:solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    width: 250px;
+    height: 100px;
+    text-align: center;
 }
 
-div2
+div2 
 {
-    border:solid;
+    border: solid;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 divv 
 {
     display: flex;
     border: dashed;
-    margin-left: 660px;
+    justify-content: space-between;
+    margin-left: 600px;
     margin-right: 700px;
 }
 
 div3 
 {
     background-color: yellow;
-    width: 40px;
-    height: 30px;
+    width: 200px;
+    height: 100px;
     position: relative;
-    left:4px;
-    z-index:1;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left:50px;
 }
 
 div4 
 {
     background-color: red;
-    width: 40px;
-    height: 30px;
-    position: absolute;
-    left:711px;
+    width: 200px;
+    height: 100px;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 div5 {
     background-color: green;
-    width: 40px;
-    height: 30px;
-    position:relative;
-    right:-30px;
-    z-index:1;
+    width: 200px;
+    height: 100px;
+    position: relative;
+    right: 50px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 divvv 
@@ -63,18 +85,21 @@ divvv
     display: flex;
     justify-content: space-evenly;
     margin-left: 600px;
-    margin-right: 600px;
+    margin-right: 700px;
     border:dashed;
+    padding:10px;
 }
 
 div6
 {
-    width:60px;
+    width:100px;
+    height:50px;
     border:solid;
 }
 
-div7
+div7 
 {
-    width:30px;
-    border:solid;
+    width: 200px;
+    height: 50px;
+    border: solid;
 }
