@@ -26,6 +26,7 @@ h1 {
     margin-right: 625px;
     color:red;
     font-size:36px;
+    text-align:center;
 }
 
 body{
@@ -55,6 +56,8 @@ nav
     top:0px;
     display:flex;
     justify-content:space-evenly;
+    background-color:darkred;
+    align-items:center;
 }
 
 footer
@@ -63,3 +66,10 @@ footer
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+a{
+    color:black;
+    background-color:white;
+    text-decoration:none;
+}
+
