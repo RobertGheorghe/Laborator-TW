@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Laborator 7</title>
+    <meta charset="UTF-8" />
+    <style>
+        p {
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <script src="lab7.js"></script>
+    <!-- Ex. 1 -->
+    <form>
+        <input type="text" placeholder="Nume" /><br /><br />
+        <input type="email" placeholder="Mail" /><br /><br />
+        <input type="password" placeholder="Parola" /><br /><br />
+        <input type="submit" onclick="showValues()" />
+    </form>
+    <!-- Ex. 2 -->
+    <p>Salutare si bine v-am gasit</p>
+    <p>Java != JavaScript</p>
+    <p>La revedere</p>
+    <button onclick="marireFont()">+</button>
+    <button onclick="micsorareFont()">-</button>
+    <!-- Ex. 3 -->
+    <div style="border:solid; width:50px; height:50px; margin-left:750px"></div><br /><br />
+    <button style="margin-left:760px" onclick="up()">W</button><br />
+    <button style="margin-left:732px" onclick="left()">A</button>
+    <button onclick="down()">S</button>
+    <button onclick="right()">D</button>
+    <!-- Ex. 4 -->
+    <p id="gol"></p>
+    <button onclick="show()">Click</button>
+</body>
+</html>
